@@ -61,6 +61,33 @@
         <!-- End Facebook Pixel Code -->
                 
     </head>
+    </head>
+    <style>
+      html { scroll-behavior: smooth; }
+
+      .button{
+        border: 2px solid black !important;
+        background: #ffffff !important;
+        font-weight: bold !important;
+        padding: 12px 21px !important;
+        color: black !important;
+      }
+      input::placeholder{
+         color: #ffffff !important;
+         opacity: 1 !important;
+         text-align: center !important;
+       }
+
+     input{
+       background: none !important;
+       border: 2px solid white !important;
+       color: white !important;
+       border-radius: 0px !important;
+     }
+     form input[type="tel"], form textarea, form input.button {
+        margin: 0px !important;
+      }
+    </style>
     <body class="slides scroll defaultScroll animated">
       
 
@@ -203,6 +230,12 @@
                         </svg>
                     </a>
                 </p>
+            </div>
+            <div class="ae-2 margin-top-3">
+                <form class="slides-form" action="#" autocomplete="off">
+                    <input type="tel" class="input-12 ae-5 fromLeft done" name="tel" placeholder="Phone Number">
+                    <button type="submit" id="submit" class="button ae-7 fromCenter done" disabled="" name="button">Get In Touch</button>
+                </form>
             </div>
             
           </div>
